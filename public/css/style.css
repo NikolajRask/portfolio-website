@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+}
+
+.sidenav {
+    width: 70px;
+    height: 100vh;
+    background: rgb(58, 58, 58);
+    position: absolute;
+
+}
+
+.github_icon_container {
+    width: 55px;
+    height: 55px;
+    margin: 7.5px;
+    border-radius: 5px;
+}
+
+.github_icon_container:hover {
+    background: rgba(0,0,0,0.1)
+}
+
+.github_icon {
+    color: white;
+    margin-left: 7.5px;
+    margin-top: 7.5px;
+}
