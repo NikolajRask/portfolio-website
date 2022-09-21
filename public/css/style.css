@@ -10,19 +10,26 @@ body {
 
 }
 
-.github_icon_container {
+.icon_container {
     width: 55px;
     height: 55px;
     margin: 7.5px;
-    border-radius: 5px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0px;
 }
 
-.github_icon_container:hover {
+.icon_container:nth-child(2) {
+    bottom: 70px;
+}
+
+.icon_container:hover {
     background: rgba(0,0,0,0.1)
 }
 
-.github_icon {
+.icon_class {
     color: white;
     margin-left: 7.5px;
     margin-top: 7.5px;
+    position: absolute;
 }
