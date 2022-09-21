@@ -15,32 +15,42 @@ class Project {
 }
 
 const projects = [{
-    name: "Power Web Browser",
+    name: "Power Web Browser 1",
     priority: 5,
     members: [],
     mainLanguage: "ElectronJS",
     color: "#2152c4"
 },
 {
-    name: "Power Web Browser",
+    name: "Power Web Browser 2",
     priority: 5,
     members: [],
     mainLanguage: "ElectronJS",
     color: "#c22c21"
 },
 {
-    name: "Power Web Browser",
+    name: "Power Web Browser 3",
     priority: 5,
     members: [],
     mainLanguage: "ElectronJS",
     color: "#03a135"
-}]
+},
+{
+    name: "Power Web Browser 4",
+    priority: 5,
+    members: [],
+    mainLanguage: "ElectronJS",
+    color: "#03a135"
+}
+]
 
 const projects_folder = document.querySelector('.projects_folder');
 
 projects.forEach((project) => {
     var x = new Project(project.name,project.priority,project.members,project.mainLanguage,project.color)
     projects_folder.innerHTML = projects_folder.innerHTML + `
-    <div class="project fade" style="border-top: 10px solid ${project.color}"></div>
+    <div class="project fade" style="border-top: 10px solid ${project.color}">
+        <p>${project.name}<p>
+    </div>
     `
 })

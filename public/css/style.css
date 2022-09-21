@@ -62,8 +62,8 @@ main {
     font-family: 'Poppins', sans-serif;
     color: rgb(28, 28, 28);
     color: white;
-    margin-left: 15%;
-    margin-top: 140px;
+    margin-left: 13%;
+    margin-top: 240px;
     font-size: 80px;
     line-height: 93px;
     margin-bottom: 0px;
@@ -76,7 +76,7 @@ main {
 .profs {
     font-family: 'Poppins', sans-serif;
     color: rgb(5, 156, 58);
-    margin-left: 15%;
+    margin-left: 13%;
     margin-top: 0px;
     font-size: 32px;
     line-height: 93px;
@@ -105,6 +105,14 @@ main {
 
 .section:nth-child(2) {
     margin-top: 100vh;
+}
+
+.section:nth-child(3) {
+    margin-top: 200vh;
+}
+
+.section:nth-child(4) {
+    margin-top: 300vh;
 }
 
 .title {
@@ -140,15 +148,24 @@ main {
 .project {
     width: 320px;
     height: 320px;
-    background: black;
-    transition: height 0.1s linear, width 0.1s linear, transform 0.1s linear, opacity 1.4s linear;
+    background: rgb(23, 23, 23);
+    transition: height 0.1s linear, width 0.1s linear, transform 0.1s linear, opacity 1.4s linear, margin-right 0.1s linear, margin-bottom 0.1s linear;
     float: left;
     margin-right: 30px;
     box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
 }
 
 .project:hover {
-    width: 330px;
-    height: 330px;
-    transform: translate(-5px,-5px);
+    /*width: 325px;
+    height: 325px;
+    transform: translate(-2.5px,-2.5px);*/
+}
+
+.project p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    margin-left: 10px;
 }
