@@ -8,6 +8,9 @@ const observer = new IntersectionObserver((enteries) => {
     })
 })
 
-const profs = document.getElementById("profs");
 
-observer.observe(profs);
+const tiles = document.querySelectorAll(".fade");
+
+tiles.forEach((e) => {
+    observer.observe(e); 
+})

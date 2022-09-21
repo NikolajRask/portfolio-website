@@ -10,6 +10,7 @@ body {
     width: 70px;
     height: 100vh;
     background: rgb(58, 58, 58);
+    background: rgb(14, 14, 14);
     position: fixed;
     z-index: 500;
 }
@@ -60,6 +61,7 @@ main {
 .hello {
     font-family: 'Poppins', sans-serif;
     color: rgb(28, 28, 28);
+    color: white;
     margin-left: 15%;
     margin-top: 140px;
     font-size: 80px;
@@ -82,8 +84,6 @@ main {
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
-    opacity: 0;  
-    transition: opacity 1s linear;
    /* filter: blur(5px);
     transform: translateX(-100%);*/
 
@@ -96,8 +96,59 @@ main {
     }
 }*/
 
+
+.section {
+    width: calc(100vw - 70px);
+    height: 100vh;
+    position: absolute;
+}
+
+.section:nth-child(2) {
+    margin-top: 100vh;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(28, 28, 28);
+    margin-left: 15%;
+    margin-top: 140px;
+    font-size: 50px;
+    margin-bottom: 0px;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    position: relative;
+}
+
+.fade {
+    opacity: 0;  
+}
+
 .show {
     opacity: 1;
+    transition: opacity 1.4s linear;
     /*filter: blur(0);
     transform: translateX(0);*/
+}
+
+.projects_folder {
+    margin-left: 15%;
+    margin-top: 14px;
+}
+
+.project {
+    width: 320px;
+    height: 320px;
+    background: black;
+    transition: height 0.1s linear, width 0.1s linear, transform 0.1s linear, opacity 1.4s linear;
+    float: left;
+    margin-right: 30px;
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.1);
+}
+
+.project:hover {
+    width: 330px;
+    height: 330px;
+    transform: translate(-5px,-5px);
 }

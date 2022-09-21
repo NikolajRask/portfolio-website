@@ -1,0 +1,14 @@
+{
+    "projects": [{
+        "name": "Power Web Browser",
+        "priority": 5,
+        "members": [],
+        "mainLanguage": "ElectronJS"
+    },
+    {
+        "name": "Power Web Browser",
+        "priority": 5,
+        "members": [],
+        "mainLanguage": "ElectronJS"
+    }]
+}
