@@ -169,3 +169,8 @@ main {
     font-weight: 600;
     margin-left: 10px;
 }
+
+.fireworks {
+    position: absolute;
+    top: 0px;
+}
