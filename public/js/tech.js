@@ -3,45 +3,6 @@ const techs = [{
     title: "Investment Calculator",
     description: "JavaScript",
     background: "black"
-},{
-    title: "Javascript",
-    description: "JavaScript",
-    background: "black"
-},{
-    title: "Javascript",
-    description: "JavaScript",
-    background: "black"
-}
-,{
-    title: "Javascript",
-    description: "JavaScript",
-    background: "black"
-},{
-    title: "Javascript",
-    description: "JavaScript",
-    background: "black"
-},{
-    title: "Javascript",
-    description: "JavaScript",
-    background: "black"
-}
-,{
-    title: "Javascript",
-    description: "JavaScript",
-    background: "black"
-},{
-    title: "Javascript",
-    description: "JavaScript",
-    background: "black"
-},{
-    title: "Javascript",
-    description: "JavaScript",
-    background: "black"
-}
-,{
-    title: "Javascript",
-    description: "JavaScript",
-    background: "black"
 }]
 
 

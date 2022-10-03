@@ -90,6 +90,13 @@ main {
 
 }
 
+br {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
 
 /*@media(prefers-reduced-motion) {
     .profs {
@@ -251,13 +258,18 @@ main {
     margin-left: 17.5%;
 }
 
-.bottom_con > p {
+.bottom_con > p, .bottom_con > a > p {
     color:rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 13px;
     cursor: pointer;
     margin-top: 100px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;  
 }
 
 .tech_folder {
