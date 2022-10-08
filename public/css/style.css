@@ -239,6 +239,10 @@ br {
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
 .line {
@@ -279,4 +283,43 @@ a {
     row-gap: 20px;
     column-gap: 30px;
     flex-flow: row wrap;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex > div {
+    margin-left: 15%;
+    width: 650px;
+    margin-right: 50px;
+}
+
+.flex > div > div {
+    display: flex;
+}
+
+.flex > div > div > p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hello_ {
+    writing-mode: vertical-lr;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.text {font-family: 'Poppins', sans-serif;}
+
+.languages {
+    width: 650px;
+    height: 650px;
+}
+
+.languages > p {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }

@@ -1,6 +1,10 @@
 
 const techs = [{
-    title: "Investment Calculator",
+    title: "JQuery Clone",
+    description: "JavaScript",
+    background: "black"
+},{
+    title: "WebGL Renderer",
     description: "JavaScript",
     background: "black"
 }]
